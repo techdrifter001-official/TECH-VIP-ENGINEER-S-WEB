@@ -945,6 +945,10 @@
     initServiceCards();
     initCareerCards();
     
+    // Dynamic year
+    const yearEl = $('#currentYear');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+    
     // Initial scroll check
     state.scrollY = window.scrollY;
     $('#navbar').classList.toggle('scrolled', state.scrollY > 50);

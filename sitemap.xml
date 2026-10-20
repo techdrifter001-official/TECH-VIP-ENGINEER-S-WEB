@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/logo.png</image:loc>
+      <image:title>TECH VIP ENGINEER'S Official Logo</image:title>
+      <image:caption>TECH VIP ENGINEER'S - Software Services &amp; Skill Development</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/Tech%20VIP%20Engineering%20Team.png</image:loc>
+      <image:title>TECH VIP Engineering Team</image:title>
+      <image:caption>Senior software engineers leading digital solutions</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/Collaborative%20Tech%20Team%20at%20Work.png</image:loc>
+      <image:title>Collaborative Tech Team at Work</image:title>
+      <image:caption>TECH VIP Engineers collaborating on cutting-edge software products</image:caption>
+    </image:image>
+  </url>
+</urlset>
