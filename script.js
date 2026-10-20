@@ -540,29 +540,43 @@
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      
+    
       if (!validateForm(form)) return;
-      
+    
       const submitBtn = form.querySelector('button[type="submit"]');
       const btnText = submitBtn.querySelector('.btn-text');
       const btnLoading = submitBtn.querySelector('.btn-loading');
-      
+    
       // Show loading state
       submitBtn.disabled = true;
       btnText.hidden = true;
       btnLoading.hidden = false;
+    
+      try {
+        // Submit to Formspree
+        const formData = new FormData(form);
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
       
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      // Show success
-      showToast('Message sent successfully! We\'ll get back to you within 24 hours.', 'success');
-      form.reset();
-      
-      // Reset button
-      submitBtn.disabled = false;
-      btnText.hidden = false;
-      btnLoading.hidden = true;
+        if (response.ok) {
+          showToast('Message sent successfully! We\'ll get back to you within 24 hours.', 'success');
+          form.reset();
+        } else {
+          throw new Error('Form submission failed');
+        }
+      } catch (error) {
+        showToast('Failed to send message. Please try again or email us directly.', 'error');
+      } finally {
+        // Reset button
+        submitBtn.disabled = false;
+        btnText.hidden = false;
+        btnLoading.hidden = true;
+      }
     });
 
     // Real-time validation
@@ -577,14 +591,16 @@
   }
 
   function validateForm(form) {
-    let isValid = true;
-    $$('input[required], select[required], textarea[required]', form).forEach(field => {
-      if (!validateField(field)) {
-        isValid = false;
-      }
-    });
-    return isValid;
-  }
+      let isValid = true;
+      // Select all required fields including those in wrappers
+      const requiredFields = form.querySelectorAll('input[required], select[required], textarea[required]');
+      requiredFields.forEach(field => {
+        if (!validateField(field)) {
+          isValid = false;
+        }
+      });
+      return isValid;
+    }
 
   function validateField(field) {
     const errorEl = field.parentElement.querySelector('.form-error');
