@@ -340,13 +340,14 @@
     const duration = 2000;
     const start = 0;
     const startTime = performance.now();
+    const suffix = element.dataset.suffix || '';
     
     function update(currentTime) {
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
       const eased = easeOutCubic(progress);
       const current = Math.floor(start + (target - start) * eased);
-      element.textContent = current.toLocaleString();
+      element.textContent = current.toLocaleString() + suffix;
       
       if (progress < 1) {
         requestAnimationFrame(update);
