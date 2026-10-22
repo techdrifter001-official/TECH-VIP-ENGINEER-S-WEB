@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/sitemap.xml
+Sitemap: https://www.techvipengineers.com/sitemap.xml

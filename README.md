@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/"><img src="https://img.shields.io/badge/Live-Website-00d4aa?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Website" /></a>
+  <a href="https://www.techvipengineers.com/"><img src="https://img.shields.io/badge/Live-Website-00d4aa?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Website" /></a>
   <a href="https://github.com/techdrifter001-official/TECH-VIP-ENGINEER-S-WEB"><img src="https://img.shields.io/badge/GitHub-Repository-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
   <a href="PROJECT_ANALYSIS.md"><img src="https://img.shields.io/badge/Documentation-Project_Analysis-f59e0b?style=for-the-badge&logo=markdown&logoColor=white" alt="Project Analysis" /></a>
 </p>
@@ -19,7 +19,7 @@
 ## 🌐 Live Website
 
 🔗 **Access the official website**:  
-**[https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/](https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/)**
+**[https://www.techvipengineers.com/](https://www.techvipengineers.com/)**
 
 ---
 

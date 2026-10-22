@@ -1,6 +1,6 @@
 # TECH VIP ENGINEER'S — Comprehensive Project Analysis
 
-> **Official Website**: [https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/](https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/)  
+> **Official Website**: [https://www.techvipengineers.com/](https://www.techvipengineers.com/)  
 > **Repository**: [techdrifter001-official/TECH-VIP-ENGINEER-S-WEB](https://github.com/techdrifter001-official/TECH-VIP-ENGINEER-S-WEB)  
 > **Headquarters**: Khansapuram / Virudhunagar, Tamil Nadu, India  
 > **Contact**: [techdrifter001@gmail.com](mailto:techdrifter001@gmail.com) | +91 63801 80705  
@@ -68,7 +68,7 @@ graph TD
 ### Search Engine Optimization (SEO)
 - **Title Tag**: `TECH VIP ENGINEER'S | Software Services, Web & Mobile App Development, Tech Courses`
 - **Canonical Tag**: Explicitly defined canonical URL preventing duplicate indexing issues:
-  `https://techdrifter001-official.github.io/TECH-VIP-ENGINEER-S-WEB/`
+  `https://www.techvipengineers.com/`
 - **Robots Directives**: `index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1`
 - **Local Geo-Tagging**: Metadata configured for Virudhunagar / Khansapuram, Tamil Nadu, India (`geo.region: IN-TN`).
 - **Google Search Console**: Verified with site verification token `L1QA2UaU0-smtAih0kknea1T8nDouJ6yVWNCRbvFuzc`.
